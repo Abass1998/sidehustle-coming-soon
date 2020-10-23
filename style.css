@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-image: url(img/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  font-family: "Poppins", sans-serif;
+}
+.wrapper {
+  /*border: 1px solid black;*/
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+
+.wrapper1 {
+  width: 50%;
+  /* border: 2px solid green;*/
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#dollar {
+  color: whitesmoke;
+}
+.wrapper2 {
+  width: 50%;
+  /*border: 2px solid pink;*/
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title-form {
+  /*border: 1px solid green;*/
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.title h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.title1 {
+  margin-top: 2rem;
+  width: 65%;
+  line-height: 2rem;
+  color: whitesmoke;
+}
+
+.enter input {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.claim h4 {
+  /*border: 2px solid red;*/
+  padding: 15px;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  background-color: hsl(154, 59%, 51%);
+  color: whitesmoke;
+  border-radius: 5px;
+}
+
+.claim a {
+  text-decoration: none;
+  color: white;
+}
+.try {
+  text-align: center;
+  /*border: 1px solid red;*/
+  background-color: hsl(248, 32%, 49%);
+  width: 70%;
+  margin: 0 auto;
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+.try:hover {
+  box-shadow: 1px 1px 1px 1px hsl(248, 32%, 49%);
+}
+
+.try a {
+  color: white;
+  text-decoration: none;
+}
+.last {
+  font-size: 14px;
+  text-align: center;
+  color: grey;
+}
+
+.link {
+  color: red;
+}
+
+.link a {
+  text-decoration: none;
+  color: red;
+}
+.sidehustle img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.coming-soon h1 {
+  text-align: center;
+  margin-top: 6rem;
+  font-size: 4rem;
+  color: white;
+  font-weight: bold;
+  font-family: monospace;
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-image: url(img/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+  }
+  .wrapper {
+    /* border: 1px solid black;*/
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .wrapper1 {
+    width: 100%;
+    /* border: 2px solid green;*/
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .wrapper2 {
+    width: 100%;
+    /* border: 2px solid pink;*/
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .title h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .title1 {
+    margin-top: 2rem;
+    /*border: 1px solid blue;*/
+    width: 55%;
+    margin: 0 auto;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  .try {
+    text-align: center;
+    /* border: 1px solid red;*/
+
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .title-form {
+    /* border: 1px solid green;*/
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .claim h4 {
+    /* border: 2px solid red;*/
+    padding: 15px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 768px) {
+  .wrapper {
+    /* border: 1px solid black;*/
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+
+  .wrapper1 {
+    width: 100%;
+    /*border: 2px solid green;*/
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .wrapper2 {
+    width: 100%;
+    /* border: 2px solid pink;*/
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .title h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .title1 {
+    margin-top: 2rem;
+    /*border: 1px solid blue;*/
+    width: 55%;
+    margin: 0 auto;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  .try {
+    text-align: center;
+    /*border: 1px solid red;*/
+
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .title-form {
+    /* border: 1px solid green;*/
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .claim h4 {
+    /*border: 2px solid red;*/
+    padding: 15px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 450px) {
+  .wrapper2 {
+    width: 100%;
+    /*border: 2px solid pink;*/
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .title-form {
+    /*border: 1px solid green;*/
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .title h1 {
+    font-size: 2rem;
+  }
+}
